@@ -130,9 +130,13 @@ def line_():
 
 DB_NAME = st.secrets["DB_NAME"]
 IP_PORT = st.secrets["IP_PORT"]
+
+st.write(DB_NAME)
+st.write(IP_PORT)
+
 db_connection_str = (
     f"mysql+pymysql://{DB_NAME}:%s@{IP_PORT}/{DB_NAME}?charset=utf8mb4"
-    % quote("{DB_NAME}"))
+    % quote(f"{DB_NAME}"))
 engine = create_engine(db_connection_str, echo=False)
 
 sql = textwrap.dedent("""\
