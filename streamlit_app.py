@@ -50,8 +50,6 @@
 # st.write('Hello World')
 
 
-from sqlalchemy import (BigInteger, Column, Date, DateTime, Integer, String,
-                        UniqueConstraint, create_engine)
 from sqlalchemy.schema import *
 from sqlalchemy.engine import create_engine
 from sqlalchemy import *
