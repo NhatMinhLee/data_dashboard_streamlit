@@ -3,3 +3,4 @@ SQLAlchemy==1.4.40
 pandas
 plost
 PyYAML==6.0
+plotly==5.13.1
