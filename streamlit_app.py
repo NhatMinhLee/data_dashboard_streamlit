@@ -46,3 +46,5 @@ with c2:
         data=stocks,
         theta='q2',
         color='company')
+
+st.write('Hello World')
