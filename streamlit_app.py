@@ -69,7 +69,6 @@ from datetime import datetime
 current_time = datetime.now()
 
 
-st_autorefresh(interval=5000)
 # st.title('Tutorial')
 # st.write('My First App 12')
 st.write(current_time)
